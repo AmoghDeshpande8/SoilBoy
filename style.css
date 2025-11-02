@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#container{
+    width: 100%;
+    border: 1px solid red;
+    background-color: #FFF8EE;
+
+}
+
+#navbar, #login, #contact, #icon_i, #hero_child {
+    display: none;
+}
+
+
+header{
+    width: 100%;
+    height: 300px;
+    background-image: url(Images/imgi_2_IMG_0061.jpg);
+    background-size: 100% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+
+
+#Logo img{
+    width: 70%;
+    height: 30px;
+    margin-left: 30%;
+}
+
+#menubar{
+    margin-left: 20px;
+}
+
+#icon_c{
+    margin-right: 20px;
+}
+
+#viewA{
+    margin-top: 3%;
+}
+
+#featured_child_parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.featured_child{
+    width: 100%;
+    margin-bottom: 5%;
+}
+/* #uniqueF, .uniqueS_child{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+} */
+
+#uniqueF{
+    margin-left: 5%;
+}
+
+
+
+.featured_child img, .shelves_child img, #ceramics_child_img img, #soil_mix_child_img img, #water_child_img img{
+    width: 100%;
+    /* height: 500px; */
+}
+
+.featured_child p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+#lamp{
+    display: flex;
+    justify-content: center;
+}
+
+#lamp_child
+{
+    width: 100%;
+    background-image: url(Images/imgi_26_Torchin-x-soilboy-header-on-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#lamp_child h3
+{
+    padding-left: 5%;
+    padding-top: 90%;
+    color: white;
+}
+
+#lamp_child button{
+   margin-top: 3%;
+   margin-left: 5%;
+   border-radius: 10px;
+   padding: 3px;   
+}
+
+#uniqueS{
+    margin-left: 5%;
+}
+
+.uniqueS_child h2, .uniqueS_child p{
+    margin-top: 5%;
+}
+
+#shelves button{
+    display: none;
+}
+
+
+#shelves_child_parent
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.shelves_child{
+    width: 100%;
+    margin: 5%;
+
+}
+
+/* .shelves_child, #ceramics_child_img{
+    margin: 5%;
+
+} */
+
+/* .shelves_child p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+} */
+
+/* .shelves_child button{
+    margin-left: 50%;
+    margin-top: 3%;
+} */
+
+#ceramics_child_img{
+    margin: 5%;
+}
+
+#ceramics_child_txt h3, #soil_mix_child_txt h3, #water_child_txt h3, #mission_child h4, #mission_child button, #SU, #info, #follow, #cont, #copyR{
+    margin-left: 5%;
+}
+
+#ceramics_child_txt button, #soil_mix_child_txt button {
+   margin-top: 3%;
+   margin-left: 5%;
+   border-radius: 10px;
+   padding: 3px;  
+   margin-bottom: 15%;
+}
+
+#soil_mix_child_img img, #water_child_img img{
+    padding: 5%;
+}
+
+#water_child_txt a{
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#mission_child{
+    height: 500px;
+    background-image: url(Images/imgi_33_monstera-2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 5%;
+}
+
+#mission_child h4{
+    color: white;
+    padding-top: 95%;
+}
+
+#mission_child button{
+    margin-top: 10%;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+#pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: auto;
+}
+
+
+.pics_child img{
+    width: 100%;
+    height: 150px;
+}
+
+.pics_child{
+    width: 44%;
+    margin: 3%;
+}
+
+#follow_us{
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+
+#follow_us_child{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: #2A2A2A;
+}
+
+footer h3, footer p, footer ul li a, footer a, #info{
+    color: white;
+}
+
+#SU h3{
+    padding-top: 5%;
+}
+
+#SU h3, #SU p, #cont a{
+    padding-bottom: 5%;
+}
+
+#SU button{
+    display: block;
+}
+
+#SU input{
+    margin-bottom: 5%;
+}
+
+#SU button{
+    margin-bottom: 20%;
+}
+
+#info h3, #info ul, #follow h3, #follow ul, #cont h3, #cont p{
+    margin-bottom: 7%;
+}
+
+#FAQ, #copyR{
+    margin-top: 7%;
+}
+#FAQ a{
+   display: inline-block;
+   margin-left: 5%;
+}
+
+#copyR{
+    padding-bottom: 7%;
+}
+
+
+
+@media only screen and (min-width: 768px)
+{
+    header{
+    width: 100%;
+    height: 550px;
+    background-image: url(Images/imgi_2_IMG_0061.jpg);
+    background-size: 100% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.featured_child{
+    width: 30%;
+    margin-bottom: 5%;
+}
+
+#uniqueS{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.uniqueS_child{
+    margin-left: 4%;
+}
+
+ .uniqueS_child button{
+   display: inline;
+   margin-top: 50%;
+   margin-left: 70%;
+   width: 90%;
+}
+
+#shelves_child_parent
+{
+    display: flex;
+}
+
+.shelves_child{
+    width: 20%;
+
+}
+
+#shelves button{
+    display: flex;
+    justify-self: center;
+}
+
+#ceramics{
+    display: flex;
+    justify-content: center;
+}
+
+#ceramics_child_img{
+    order: 2;
+    width: 50%;
+}
+
+#ceramics_child_txt{
+    order: 1;
+    margin-top: 20%;
+}
+
+#soil_mix{
+    display: flex;
+    justify-content: center;
+}
+
+#soil_mix_child_img{
+    width: 50%;
+}
+
+#soil_mix_child_txt{
+    margin-top: 20%;
+}
+
+#water{
+    display: flex;
+    justify-content: center;
+}
+
+#water_child_img{
+    order: 2;
+    width: 50%;
+    margin-right: 5%;
+}
+
+#water_child_txt{
+    order: 1;
+    margin-top: 20%;
+}
+
+
+
+#mission{
+    height: 500px;
+}
+
+#mission_child{
+    height: 100%;
+    background-image: url(Images/imgi_33_monstera-2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 5%;
+    display: block;
+}
+
+
+#mission_child h4{
+    color: white;
+    padding-top: 50%;
+}
+
+#mission_child button{
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+    
+}
+.pics_child{
+    width: 15%;
+    margin-left: 3%;
+    
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#SU{
+    width: 25%;
+}
+
+#FAQ{
+    display: flex;
+    margin-left: 5%;
+}
+
+#FAQ a{
+    width: 50%;
+    
+}
+
+#copyR{
+    margin-left: 50%;
+}
+}
+
+
+
+@media only screen and (min-width: 1440px)
+{
+
+    header{
+    width: 100%;
+    height: 800px;
+    background-image: url(Images/imgi_2_IMG_0061.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+    #navbar, #login, #contact, #icon_i, #herosection {
+    display: inline;
+}
+
+#menubar{
+    display: none;
+}
+
+#logoleft, #logoright, #navbar_child{
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar_child li{
+    margin-left: 10%;
+}
+
+#logoright #login{
+    margin-right: 10%;
+}
+
+#hero_child{
+    display: block;
+    width: 100%;
+    margin-left: 5%;
+}
+
+#hero_child h2{
+    margin-bottom: 1%;
+}
+
+#uniqueF h3{
+    margin-top: 5%;
+}
+
+#mission_child h4{
+    color: white;
+    padding-top: 20%;
+    font-size: 30px;
+}
+
+#mission_child button{
+    margin-top: 2%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.pics_child{
+    width: 20%;
+    margin-left: 0%;
+    
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#SU{
+    width: 35%;
+}
+
+}
