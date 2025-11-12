@@ -42,7 +42,7 @@ header {
 }
 
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   #navbar, #login, #contact, #icon_i {
     display: inline;
   }
