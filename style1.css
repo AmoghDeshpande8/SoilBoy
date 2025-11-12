@@ -39,8 +39,8 @@ header {
   margin-right: 20px;
 }
 
-/* --- NAVBAR (Desktop) --- */
-@media (min-width: 1440px) {
+
+@media (min-width: 1024px) {
   #navbar, #login, #contact, #icon_i {
     display: inline;
   }
@@ -227,7 +227,7 @@ footer h3, footer p, footer a {
 }
 
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1024px) {
   footer {
     justify-content: space-evenly;
   }
