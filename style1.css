@@ -111,7 +111,7 @@ header {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
     #menubar {
         display: none; 
       }
