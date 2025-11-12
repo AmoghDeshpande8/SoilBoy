@@ -1,0 +1,256 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFF8EE;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px 20px;
+}
+
+#navbar, #login, #contact, #icon_i, #hero_child {
+  display: none;
+}
+
+#Logo img {
+  width: 120px;
+  display: block;
+  margin: auto;
+}
+
+#menubar {
+  margin-left: 10px;
+  font-size: 22px;
+}
+
+#icon_c {
+  margin-right: 20px;
+}
+
+
+@media (min-width: 1440px) {
+  #navbar, #login, #contact, #icon_i {
+    display: inline;
+  }
+
+  #menubar {
+    display: none;
+  }
+
+  #logoleft, #logoright, #navbar_child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #navbar_child li {
+    margin-left: 10%;
+  }
+
+  #logoright #login {
+    margin-right: 10%;
+  }
+
+  #contact button {
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+}
+
+
+#plants_parent {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.plants_child {
+  text-align: center;
+  width: 90%;
+  max-width: 300px;
+}
+
+.plants_child img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.plants_child h4 {
+  margin-top: 8px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+
+@media (min-width: 768px) {
+     #menubar,
+    #icon_c {
+    display: block;
+    color: black;
+    font-size: 22px;
+    cursor: pointer;
+}
+  #plants_parent {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1440px) {
+#menubar{
+    display: none;
+}
+  #plants_parent {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+footer {
+  background-color: #2A2A2A;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 5%;
+}
+
+footer h3, footer p, footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#SU, #info, #follow, #cont {
+  width: 100%;
+  margin-bottom: 7%;
+}
+
+#SU h3 {
+  padding-top: 5%;
+}
+
+#SU p {
+  padding-bottom: 5%;
+}
+
+#SU input {
+  display: block;
+  padding: 8px;
+  width: 80%;
+  margin-bottom: 5%;
+  border: none;
+  border-radius: 4px;
+}
+
+#SU button {
+  display: block;
+  padding: 8px 12px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 20%;
+}
+
+#info ul, #follow ul {
+  list-style: none;
+}
+
+#info ul li, #follow ul li {
+  margin-bottom: 8px;
+}
+
+#cont a {
+  display: block;
+  padding-bottom: 5%;
+  color: white;
+}
+
+#FAQ {
+  width: 100%;
+  margin-top: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#FAQ a {
+  color: white;
+  text-decoration: none;
+}
+
+#copyR {
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-top: 3%;
+  padding-bottom: 7%;
+  font-size: 14px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  footer {
+    justify-content: space-evenly;
+  }
+
+  #SU, #info, #follow, #cont {
+    width: 40%;
+  }
+
+  #FAQ {
+    justify-content: flex-start;
+    margin-left: 5%;
+  }
+
+  #copyR {
+    text-align: right;
+    margin-right: 5%;
+  }
+}
+
+
+@media only screen and (min-width: 1440px) {
+  footer {
+    justify-content: space-evenly;
+  }
+
+  #SU {
+    width: 35%;
+  }
+
+  #info, #follow, #cont {
+    width: 15%;
+  }
+
+  #FAQ {
+    justify-content: flex-start;
+    margin-left: 5%;
+  }
+
+  #copyR {
+    margin-left: 50%;
+    text-align: left;
+  }
+}
